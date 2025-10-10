@@ -1,13 +1,13 @@
-body {
-  
-  background-color: beige;
-}
 
+body {
+  background-color: 9CAF88;
+}
+/* commenting out aaaa */
 h1 {
-  color: purple;
+  color: white;
   font-size: 1rem;
   text-decoration: underline;
 }
 h2 {
-  text-shadow: 0 0 3px purple;
+  text-shadow: 0 0 3px CBD5CO;
 }
