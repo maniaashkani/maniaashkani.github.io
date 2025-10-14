@@ -3,10 +3,12 @@
 } */
 .name{
   color:purple;
+  border: 5px;
 }
 
 .question{
-color:rgb(139, 0, 0)
+color:rgb(139, 0, 0);
+border: 5px;
 }
 h1 {
   color: purple;
