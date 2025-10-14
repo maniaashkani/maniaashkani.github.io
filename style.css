@@ -8,6 +8,8 @@
 
 .question{
 color:rgb(139, 0, 0);
+border-style:grooved;
+border-color:rgb(139, 0, 0);
 border: 5px;
 }
 h1 {
