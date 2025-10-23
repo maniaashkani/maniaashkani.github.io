@@ -1,8 +1,8 @@
 body {
-font-family: "Trebuchet MS", sans-serif;
+font-family: "Trebuchet MS", sans-serif; 
 margin: 0;
 color: #3b2b0a;
-
+} /* The body section of the CSS was missing a curly brace to close it. Without closing this section, it is able to ignore and mess up the rest of the sections in the CSS file */
 .sidebar {
 position: fixed;
 top: yes;
