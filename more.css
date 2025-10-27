@@ -35,7 +35,7 @@ text-decoration: underline;
 #content {
 margin-left: 250px;
 padding: 40px;
-background-color: fdf9f4;
+background-color: #fdf9f4; /*This hex code was missing a hashtag. Without writing the hashtag, the CSS will not know if it is a hex code and ignore it entirely.*/
 }
 .section {
 padding: 50px; /*This padding element is missing the "px" beside it. This implies "pixels" and helps the computer with positioning the CSS elements the way you wanted to. */
