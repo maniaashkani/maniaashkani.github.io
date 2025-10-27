@@ -20,7 +20,7 @@ text-align: center;
 }
 #sidebar ul {
 list-style: none;
-padding: 0;
+padding: 0px; /*This padding element is missing a "px" beside it. Without adding the "px" beside it, the CSS will ignore it since there isn't a unit for it.*/
 }
 #sidebar li {
 margin: 15px 0;
@@ -38,20 +38,19 @@ padding: 40px;
 background-color: fdf9f4;
 }
 .section {
-padding: 50;
+padding: 50px; /*This padding element is missing the "px" beside it. This implies "pixels" and helps the computer with positioning the CSS elements the way you wanted to. */
 margin-bottom: 50px
 border-radius: 10px;
 }
 .light {
 background-color: #fff8e6;
 }
-.dork {
-
+.dark { /*This class was written incorrectly. When designing in CSS, it is important to write the name of the class or id correctly so that CSS knows what to target since it is sensitive.*/
 background-color: #e7cba9;
 color: #3b2b0a;
 }
 .wool-box {
-position relative;
+position: relative; /*This position element was missing it's colon. The colon helps seperate the property from it's value making it easier for the CSS to read it. */
 background-color: #f3e0b6;
 padding: 30px;
 margin-top: 25px;
