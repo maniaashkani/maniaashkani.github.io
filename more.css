@@ -11,7 +11,7 @@ width: 220px;
 height: 100%;
 background-color: #d8b382;
 padding: 20px;
-box-shadow: 3px 0 8px rgb(0,0,0,0.2); /*The coloring in this CSS element is was written incorrectly. When writing an RGB element, it is important to write it correctly because the CSS is sensitive and will not understand which coloring you are using.*/
+box-shadow: 3px 0 8px rgba(0,0,0,0.2); 
 }
 
 #sidebar h2 {
