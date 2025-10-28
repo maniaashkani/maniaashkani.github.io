@@ -4,7 +4,7 @@ margin: 0;
 color: #3b2b0a;
 } /* The body section of the CSS was missing a curly brace to close it. Without closing this section, it is able to ignore and mess up the rest of the sections in the CSS file */
 
-#sidebar { /* There must be a hashtag at the start of the id name instead of a period. This is because a period is only used for "class" and not "id"*/
+#sidebar { /* There must be a hashtag at the start of the id name instead of a period. This is because a period is only used to target a class and not an id*/
 position: fixed;
 top: 0px; /* This positioning element was missing a number and "px" beside it. When setting up the porportions of a CSS element, you must enter a number and not a word. An HTML needs to use to ensure that it looks the same on devices like tablet, phones, etc. Along with that, you need to add "px" at the end to signify pixels. Pixels is the only unit computers use to where to place the CSS element. */
 left: 0px; /* This positioning element was missing the "px" beside it. This is the correct unit the computer will use to position the CSS element correctly*/
@@ -46,7 +46,7 @@ background-color: #fdf9f4; /*This hex code was missing a hashtag. Without writin
 
 .section {
 padding: 50px; /*This padding element is missing the "px" beside it. This implies "pixels" and helps the computer with positioning the CSS elements the way you wanted to. */
-margin-bottom: 50px
+margin-bottom: 50px; /*This margin element did not have a semi colon at the end. A semi colon can help let the CSS know that this element is complete*/
 border-radius: 10px;
 }
 
