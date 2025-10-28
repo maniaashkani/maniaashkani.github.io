@@ -3,6 +3,7 @@ font-family: "Trebuchet MS", sans-serif;
 margin: 0;
 color: #3b2b0a;
 } /* The body section of the CSS was missing a curly brace to close it. Without closing this section, it is able to ignore and mess up the rest of the sections in the CSS file */
+
 .sidebar { 
 position: fixed;
 top: 0px; /* This positioning element was missing a number and "px" beside it. When setting up the porportions of a CSS element, you must enter a number and not a word. An HTML needs to use to ensure that it looks the same on devices like tablet, phones, etc. Along with that, you need to add "px" at the end to signify pixels. Pixels is the only unit computers use to where to place the CSS element. */
@@ -11,44 +12,53 @@ width: 220px;
 height: 100%;
 background-color: #d8b382;
 padding: 20px;
-box-shadow: 3px 0 8px rgba(0,0,0,0.2); 
+box-shadow: 3px 0 8px rgba(0, 0, 0, 0.2); /* This RGBA code was missing space between the numbers. It is important to add spaces between them for clarity and for the CSS to read it correctly*/
 }
 
 #sidebar h2 {
 color: FFFFFF; /*This element had "what" written inside of it instead of a hex code. Without writing a hex code correctly, the CSS will ignore it and not add the coloring you want.*/
 text-align: center;
 }
+
 #sidebar ul {
 list-style: none;
 padding: 0px; /*This padding element is missing a "px" beside it. Without adding the "px" beside it, the CSS will ignore it since there isn't a unit for it.*/
 }
+
 #sidebar li {
 margin: 15px 0;
 }
+
 #sidebar a {
 color: white;
 text-decoration: none;
 }
+
 #sidebar a:hover {
 text-decoration: underline;
 }
+
 #content {
 margin-left: 250px;
 padding: 40px;
 background-color: #fdf9f4; /*This hex code was missing a hashtag. Without writing the hashtag, the CSS will not know if it is a hex code and ignore it entirely.*/
 }
+
 .section {
 padding: 50px; /*This padding element is missing the "px" beside it. This implies "pixels" and helps the computer with positioning the CSS elements the way you wanted to. */
 margin-bottom: 50px
 border-radius: 10px;
 }
+
 .light {
 background-color: #fff8e6;
 }
+
 .dark { /*This class was written incorrectly. When designing in CSS, it is important to write the name of the class or id correctly so that CSS knows what to target since it is sensitive.*/
 background-color: #e7cba9;
 color: #3b2b0a;
 }
+
 .wool-box {
 position: relative; /*This position element was missing it's colon. The colon helps seperate the property from it's value making it easier for the CSS to read it. */
 background-color: #f3e0b6;
@@ -56,6 +66,7 @@ padding: 30px;
 margin-top: 25px;
 border-radius: 8px;
 }
+
 .wool-detail { /*This CSS element is missing it's starting curly brace. Without adding the starting curly brace, the CSS will read as invaild and ignore it entirely.*/
 position: absolute;
 bottom: 10px;
