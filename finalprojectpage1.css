@@ -4,11 +4,12 @@
   right: 0;
   length: 100px;
   font-family:"Verdana";
-  font-color: #FFD700;
+  color: #FFD700;
 }
 .aboutush1 {
   text-align: center;
   font-family:"Brush Script MT";
+  color: #FFD700;
 }
 .aboutush3 {
   font-family:"Verdana";
@@ -20,7 +21,7 @@
 .aboutush3part2 {
   font-family:"Verdana";
   text-align: center;
-  font-color: #FFD700;
+  color: #FFD700;
   margin-left: 15%;
   margin-right:15%;
 }
