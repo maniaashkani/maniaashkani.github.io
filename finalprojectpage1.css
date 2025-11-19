@@ -5,6 +5,8 @@ nav {
   position: fixed;
   top: 0;
   right: 0;
+  length: 100px;
+  
 }
 .aboutush1 {
   text-align: center;
