@@ -14,7 +14,7 @@
 .aboutush3 {
   font-family:"Verdana";
   text-align: center;
-  font-color: #FFD700;
+  color: #FFD700;
   margin-left: 15%;
   margin-right:15%;
 }
@@ -25,18 +25,24 @@
   margin-left: 15%;
   margin-right:15%;
 }
+.container {
+  position: relative;
+}
 .aboutusimages {
-  position: z-index;
+  position: absolute;
+  z-index: 1;
   border-radius: 50px;
   border-width: 10px;
 }
 .aboutusimagespart2 {
-  position: z-index;
+  position: aboslute;
+  z-index: 2;
   border-radius: 50px;
   border-width: 10px;
 }
 .aboutusimagespart3 {
-  position: z-index;
+  position: absolute;
+  z-index: 3;
   border-radius: 50px;
   border-width: 10px;
 }
