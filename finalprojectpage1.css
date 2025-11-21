@@ -1,27 +1,24 @@
+
 .navigation {
   position: fixed;
   top: 0;
   right: 0;
   length: 100px;
   font-family:"Verdana";
-  color: #FFD700;
+  color: #C78B00;
 }
-.aboutush1 {
+.aboutush1 h1 {
   text-align: center;
   font-family:"Brush Script MT";
-  color: #FFD700;
+  font-size: 5.2rem;
+  color: #C78B00;
+  margin-top:4.5%;
 }
 .aboutush3 {
   font-family:"Verdana";
   text-align: center;
-  color: #FFD700;
-  margin-left: 15%;
-  margin-right:15%;
-}
-.aboutush3part2 {
-  font-family:"Verdana";
-  text-align: center;
-  color: #FFD700;
+  color: #C78B00;
+  margin-top: 0.05%;
   margin-left: 15%;
   margin-right:15%;
 }
@@ -31,18 +28,103 @@
 .aboutusimages {
   position: absolute;
   z-index: 1;
+  border-style: solid;
   border-radius: 50px;
   border-width: 10px;
+  border-color: black;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  margin-left: 220px;
 }
 .aboutusimagespart2 {
   position: absolute;
   z-index: 2;
+  border-style: solid;
   border-radius: 50px;
   border-width: 10px;
+  border-color: black;
+  margin-top: 130px;
+  margin-bottom: 200px;
+  margin-left: 140px;
 }
 .aboutusimagespart3 {
   position: absolute;
   z-index: 3;
+  border-style: solid;
   border-radius: 50px;
   border-width: 10px;
+  border-color: black;
+  margin-top: 40px;
+  margin-bottom: 200px;
+  margin-left: 190px;
+}
+.studios {
+  margin-top: 500px;
+}
+
+.studioh3flex {
+  margin-right: 700px;
+}
+
+.studioflexinfo {
+  margin-right: 700px;
+}
+
+.flexbutton {
+  margin-right: 700px;
+}
+
+.imgflex {
+   border-style: solid;
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: black;
+  margin-left: 500px;
+  margin-top: -200px;
+}
+
+.studioh3glow {
+  margin-right: 700px;
+}
+
+.studioglowinfo {
+  margin-right: 700px;
+}
+
+.glowbutton {
+  margin-right: 700px;
+}
+
+.imgglow {
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: black;
+  margin-left: 500px;
+  margin-top: -200px;
+}
+
+.studioh3red {
+  margin-right: 700px;
+}
+
+.studioredinfo {
+  margin-right: 700px;
+}
+
+.redbutton {
+  margin-right: 700px;
+}
+
+.imgred {
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: black;
+  margin-left: 500px;
+  margin-top: -150px;
+}
+
+.footer {
+  margin-top: 100px;
 }
