@@ -62,11 +62,6 @@
   margin-top: 500px;
 }
 
-.studioh1 {
-  font-family: "Brush Script MT";
-  font-size: 5.2rem;
-}
-
 .studioh3flex {
   margin-right: 700px;
 }
@@ -77,6 +72,11 @@
 
 .flexbutton {
   margin-right: 700px;
+}
+
+.flexbutton button {
+  background-color: black;
+  border-radius: 10px;
 }
 
 .imgflex {
@@ -98,6 +98,10 @@
 
 .glowbutton {
   margin-right: 700px;
+}
+.glowbutton button {
+  background-color: black;
+  border-radius: 10px;
 }
 
 .imgglow {
@@ -121,6 +125,11 @@
   margin-right: 700px;
 }
 
+.redbutton button {
+  background-color: black;
+  border-radius: 10px;
+}
+
 .imgred {
   border-style: solid;
   border-radius: 50px;
@@ -132,4 +141,6 @@
 
 .footer {
   margin-top: 100px;
+  color: #C78B00;
 }
+ 
