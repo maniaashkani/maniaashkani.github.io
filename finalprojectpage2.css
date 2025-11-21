@@ -1,1 +1,87 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  length: 100px;
+  font-family:"Verdana";
+  color: #C78B00;
+}
+.photopackagesh1 {
+  text-align: center;
+  font-family:"Brush Script MT";
+  font-size: 5.2rem;
+  color: #C78B00;
+  margin-top:4.5%;
+}
 
+.essential {
+  font-family:"Verdana";
+  text-align: center;
+  color: #C78B00;
+  margin-top: 0.05%;
+  margin-right:15%;
+}
+
+.essentialimage {
+  margin-left: 1100px;
+  margin-top: -250px;
+}
+.essentialimage button {
+  background-color: black;
+  color: white;
+  font-family: "Sans Serif";
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.premium {
+  font-family:"Verdana";
+  text-align: center;
+  color: #C78B00;
+  margin-top: 0.05%;
+  margin-right:15%;
+}
+
+.premiumimage {
+  margin-left: 1100px;
+  margin-top: -250px;
+}
+
+.premiumimage button {
+  background-color: black;
+  color: white;
+  font-family: "Sans Serif";
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.luxe {
+   font-family:"Verdana";
+  text-align: center;
+  color: #C78B00;
+  margin-top: 0.05%;
+  margin-right:15%;
+}
+.luxeimage {
+  margin-left: 1100px;
+  margin-top: -250px;
+}
+.luxeimage button {
+  background-color: black;
+  color: white;
+  font-family: "Sans Serif";
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.addonsimportantnotes {
+  text-align: center;
+  font-family:"Verdana";
+  font-size: 5.2rem;
+  color: #C78B00;
+  margin-top:4.5%;
+}
+.footer {
+  margin-top: 100px;
+  margin-left: 600px;
+  color: #C78B00;
+}
