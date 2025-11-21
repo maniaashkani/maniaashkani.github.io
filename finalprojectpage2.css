@@ -32,6 +32,7 @@
   font-family: "Sans Serif";
   margin-top: 10px;
   margin-left: 100px;
+  border-radius: 10px;
 }
 
 .premium {
@@ -53,6 +54,7 @@
   font-family: "Sans Serif";
   margin-top: 10px;
   margin-left: 100px;
+  border-radius: 10px;
 }
 
 .luxe {
@@ -72,6 +74,7 @@
   font-family: "Sans Serif";
   margin-top: 10px;
   margin-left: 100px;
+  border-radius: 10px;
 }
 .addonsimportantnotes {
   text-align: center;
