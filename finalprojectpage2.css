@@ -1,7 +1,7 @@
 .navigation {
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 200px;
   length: 100px;
   font-family:"Verdana";
   color: #C78B00;
