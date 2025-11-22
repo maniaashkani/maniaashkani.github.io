@@ -1,10 +1,15 @@
 .navigation {
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 200px;
   length: 100px;
   font-family:"Verdana";
   color: #C78B00;
+}
+.navigation a {
+  font-family:"Verdana";
+  color: #C78B00;
+  text-decoration: underline;
 }
 .aboutush1 h1 {
   text-align: center;
@@ -73,17 +78,17 @@
   margin-right: 700px;
 }
 
+.flexbutton a {
+  color: black;
+}
+
 .flexbutton button:hover {
-  background-color: black;
+  border-style: none;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 .imgflex {
-   border-style: solid;
-  border-radius: 50px;
-  border-width: 10px;
-  border-color: black;
   margin-left: 500px;
   margin-top: -200px;
 }
@@ -98,18 +103,20 @@
 
 .glowbutton {
   margin-right: 700px;
+  color: 
 }
+
+.glowbutton a {
+  color: black;
+}
+
 .glowbutton button:hover {
-  background-color: black;
+  border-style: none;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 .imgglow {
-  border-style: solid;
-  border-radius: 50px;
-  border-width: 10px;
-  border-color: black;
   margin-left: 500px;
   margin-top: -200px;
 }
@@ -126,24 +133,25 @@
   margin-right: 700px;
 }
 
+.redbutton a {
+  color: black;
+}
+
 .redbutton button:hover {
-  background-color: black;
+  border-style: none;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 .imgred {
-  border-style: solid;
-  border-radius: 50px;
-  border-width: 10px;
-  border-color: black;
+  position: relative;
   margin-left: 500px;
   margin-top: -150px;
+  box-sizing: border-box;
 }
 
 .footer {
   margin-top: 100px;
   color: #C78B00;
 }
- 
  
