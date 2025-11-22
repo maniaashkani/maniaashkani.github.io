@@ -6,12 +6,12 @@
   font-family:"Verdana";
   color: #C78B00;
 }
-.photopackagesh1 {
+.photopackagesh1 h1 {
   text-align: center;
   font-family:"Brush Script MT";
   font-size: 5.2rem;
   color: #C78B00;
-  margin-top:4.5%;
+  margin-top: 4.5%;
 }
 
 .essential {
@@ -26,13 +26,22 @@
   margin-left: 1100px;
   margin-top: -250px;
 }
+.essential image a {
+  color: black;
+}
 .essentialimage button {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: "Sans Serif";
+  text-decoration: underline;
   margin-top: 10px;
   margin-left: 100px;
+}
+
+.essentialimage button:hover {
+  border-style: none;
   border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 .premium {
@@ -48,13 +57,23 @@
   margin-top: -250px;
 }
 
+premiumimage a {
+  color: black;
+}
+
 .premiumimage button {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: "Sans Serif";
+  text-decoration: underline;
   margin-top: 10px;
   margin-left: 100px;
+}
+
+.premiumimage button:hover {
+  border-style: none;
   border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 .luxe {
@@ -68,13 +87,21 @@
   margin-left: 1100px;
   margin-top: -250px;
 }
+.luxe image a {
+  color: black;
+}
 .luxeimage button {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: "Sans Serif";
   margin-top: 10px;
   margin-left: 100px;
+  text-decoration: underline;
+}
+.luxeimage button:hover {
+  border-style: none;
   border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 .addonsimportantnotes {
   text-align: center;
@@ -84,7 +111,8 @@
   margin-top:4.5%;
 }
 .footer {
+  font-family:"Verdana";
   margin-top: 100px;
   margin-left: 600px;
-  color: #C78B00;
+  color: black;
 }
