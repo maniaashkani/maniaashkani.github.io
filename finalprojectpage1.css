@@ -63,8 +63,10 @@
   margin-bottom: 200px;
   margin-left: 190px;
 }
-.studios {
+.studios h1 {
   margin-top: 500px;
+  font-family:"Brush Script MT";
+  font-size: 5.2rem;
 }
 
 .studioh3flex {
