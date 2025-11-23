@@ -6,6 +6,11 @@
   font-family:"Verdana";
   color: #C78B00;
 }
+.navigation a {
+  font-family:"Verdana";
+  color: #C78B00;
+  text-decoration: underline;
+}
 .photopackagesh1 h1 {
   text-align: center;
   font-family:"Brush Script MT";
