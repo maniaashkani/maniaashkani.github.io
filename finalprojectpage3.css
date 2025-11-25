@@ -3,10 +3,11 @@
   top: 20px; 
   right: 200px; /* Both top, right, and length elements change where the links stay */
   length: 100px;
-  font-family:"Verdana"; /* Changes the font of the text */
-  color: #8F6A2F; /* Changes the color of the text */
+  
 }
 .navigation a { /* This styles the links */
+  font-family:"Verdana"; /* Changes the font of the text */
+  color: #8F6A2F; /* Changes the color of the text */
   text-decoration: underline; /* Creates a line under the hyper links */
 }
 .faqh1  h1 {/* This styles "Frequently Asked Questions" header */
