@@ -1,53 +1,52 @@
-.navigation {
-  position: fixed;
-  top: 20px;
-  right: 200px;
+.navigation { /* This is the navigation bar */
+  position: fixed; /* This keeps the nav bar in place even when scrolling */
+  top: 20px; 
+  right: 200px; /* Both top, right, and length elements change where the links stay */
   length: 100px;
-  font-family:"Verdana";
-  color: #8F6A2F;
+  font-family:"Verdana"; /* Changes the font of the text */
+  color: #8F6A2F; /* Changes the color of the text */
 }
-.navigation a {
-  font-family:"Verdana";
-  color: #8F6A2F;
-  text-decoration: underline;
+.navigation a { /* This styles the links */
+  text-decoration: underline; /* Creates a line under the hyper links */
 }
-.faqh1  h1 {
-  text-align: center;
-  font-family:"Brush Script MT";
-  font-size: 5.2rem;
-  color: #8F6A2F;
-  margin-top:4.5%;
+.faqh1  h1 {/* This styles "Frequently Asked Questions" header */
+  text-align: center; /* Moves header to the center of the page */
+  font-family:"Brush Script MT"; /* Changes the font of the text */
+  font-size: 5.2rem; /* Changes the font-size */
+  color: #8F6A2F; /* Changes the color of the text */
+  margin-top:4.5%; /* Moves the header further down */
 }
-.faqh3andh4part1 h3 {
-  color: #8F6A2F;
-  text-align: center;
+.faqh3andh4part1 h3 { /*This styles the h3 tags of this div tag (the questions) */
+  color: #8F6A2F; /* Changes the color of the text */
+  text-align: center; /* Moves text to the center of the page */
 }
 
-.faqh3andh4part1 h4 {
-  color: #8F6A2F;
-  text-align: center;
+.faqh3andh4part1 h4 { /*This styles the h4 tags of this div tag (the answer) */
+  color: #8F6A2F; /* Changes the color of the text */
+  text-align: center;/* Moves text to the center of the page */
 }
-.faqlist {
-  color: #8F6A2F;
-  text-align: center;
+.faqlist { /* This styles the list question */
+  color: #8F6A2F; /* Changes the color of the text */
+  text-align: center; /* Moves text to the center of the page */
 }
-.faqh3andh4part2 h3 {
-  color: #8F6A2F;
-  text-align: center;
+.faqh3andh4part2 h3 { /*This styles the h3 tags of this div tag (the questions) */
+  color: #8F6A2F; /* Changes the color of the text */
+  text-align: center; /* Moves text to the center of the page */
 }
-.faqh3andh4part2 h4 {
-  color: #8F6A2F;
-  text-align: center;
-}
-
-.secondh1 {
-  color: #8F6A2F;
-  text-align: center;
-  margin-top: 50px;
+.faqh3andh4part2 h4 {/*This styles the h4 tags of this div tag (the answer) */
+  color: #8F6A2F; /* Changes the color of the text */
+  text-align: center;/* Moves text to the center of the page */
 }
 
-.footer {
-  margin-top: 100px;
-  margin-left: 600px;
-  color: black;
+.secondh1 { /*This styles the last header on the page*/
+  color: #8F6A2F; /* Changes the color of the text */
+  text-align: center;/* Moves text to the center of the page */
+  margin-top: 50px; /*Moves the header further down */
+}
+
+.footer {/*This styles the location, hours, and contact information*/
+  margin-top: 100px; /*Moves the text further down*/
+  margin-left: 600px; /*Moves the text further to the left*/
+  color: black; /* Changes the color of the text */
+  font-family:"Verdana"; /* Changes the font of the text */
 }
