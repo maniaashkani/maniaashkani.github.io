@@ -1,123 +1,125 @@
-.navigation {
-  position: fixed;
-  top: 20px;
-  right: 200px;
+.navigation { /* This is the navigation bar */
+  position: fixed; /* This keeps the nav bar in place even when scrolling */
+  top: 20px; 
+  right: 200px; /* Both top, right, and length elements change where the links stay */
   length: 100px;
-  font-family:"Verdana";
-  color: #8F6A2F;
+  font-family:"Verdana"; /* Changes the font of the text */
+  color: #8F6A2F; /* Changes the color of the text */
 }
-.navigation a {
-  font-family:"Verdana";
-  color: #8F6A2F;
-  text-decoration: underline;
+.navigation a { /* This styles the links */
+  text-decoration: underline; /* Creates a line under the hyper links */
 }
-.photopackagesh1 h1 {
-  text-align: center;
-  font-family:"Brush Script MT";
-  font-size: 5.2rem;
-  color: #8F6A2F;
-  margin-top: 4.5%;
+.photopackagesh1 h1 {/* This styles "About Us" header */
+  text-align: center; /* Moves header to the center of the page */
+  font-family:"Brush Script MT"; /* Changes the font of the text */
+  font-size: 5.2rem; /* Changes the font-size */
+  color: #8F6A2F; /* Changes the color of the text */
+  margin-top:4.5%; /* Moves the header further down */
 }
 
-.essential {
-  font-family:"Verdana";
-  text-align: center;
-  color: #8F6A2F;
-  margin-top: 0.05%;
-  margin-right:15%;
+.essential { /*This styles the header and the text written*/
+  font-family:"Verdana"; /* Changes the font of the text */
+  text-align: center;  /* Moves everything to the center of the page */
+  color: #8F6A2F; /* Changes the color of the text */
+  margin-top: 0.05%; /* Moves everything further down */
+  margin-right: 15%; /*Moves everything further to the right */
 }
 
-.essentialimage {
-  margin-left: 1100px;
-  margin-top: -250px;
+.essentialimage { /*This styles the image beside all the text */
+  margin-left: 1100px; /* Moves the image further to the left*/
+  margin-top: -250px; /* Moves the image further up */
 }
-.essentialimage a {
-  color: black;
+.essentialimage a { /*This styles the button text under the image */
+  color: black; /* Changes the color of the text */
 }
-.essentialimage button {
-  background-color: white;
-  color: black;
-  font-family: "Sans Serif";
-  text-decoration: underline;
-  margin-top: 10px;
-  margin-left: 100px;
-}
-
-.essentialimage button:hover {
-  border-style: none;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+.essentialimage button { /*This styles the actual button*/
+  background-color: white; /* Sets the background color*/
+  color: black; /* Changes the color of the text */
+  font-family: "Sans Serif"; /* Changes the font of the text */
+  text-decoration: underline; /*Adds a line under the text*/
+  margin-top: 10px; /* Moves everything further down */
+  margin-left: 100px; /*Moves everything further to the left */
 }
 
-.premium {
-  font-family:"Verdana";
-  text-align: center;
-  color: #8F6A2F;
-  margin-top: 0.05%;
-  margin-right:15%;
+.essentialimage button:hover {/* This styles the button when you hover over it */
+  border-style: none; /* Sets the border style */
+  border-radius: 10px; /* Creates rounded edges */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6); /* Creates a shadow around the button */
 }
 
-.premiumimage {
-  margin-left: 1100px;
-  margin-top: -250px;
+.premium {/*This styles the header and the text written*/
+  font-family:"Verdana"; /* Changes the font of the text */
+  text-align: center;  /* Moves everything to the center of the page */
+  color: #8F6A2F; /* Changes the color of the text */
+  margin-top: 0.05%; /* Moves everything further down */
+  margin-right: 15%; /*Moves everything further to the right */
 }
 
-.premiumimage a {
-  color: black;
+
+.premiumimage {/*This styles the image beside all the text */
+  margin-left: 1100px; /* Moves the image further to the left*/
+  margin-top: -250px; /* Moves the image further up */
 }
 
-.premiumimage button {
-  background-color: white;
-  color: black;
-  font-family: "Sans Serif";
-  text-decoration: underline;
-  margin-top: 10px;
-  margin-left: 100px;
+.premiumimage a {/*This styles the button text under the image */
+  color: black; /* Changes the color of the text */
 }
 
-.premiumimage button:hover {
-  border-style: none;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+.premiumimage button {/*This styles the actual button*/
+  background-color: white; /* Sets the background color*/
+  color: black; /* Changes the color of the text */
+  font-family: "Sans Serif"; /* Changes the font of the text */
+  text-decoration: underline; /*Adds a line under the text*/
+  margin-top: 10px; /* Moves everything further down */
+  margin-left: 100px; /*Moves everything further to the left */
 }
 
-.luxe {
-   font-family:"Verdana";
-  text-align: center;
-  color: #8F6A2F;
-  margin-top: 0.05%;
-  margin-right:15%;
+
+.premiumimage button:hover {/* This styles the button when you hover over it */
+  border-style: none; /* Sets the border style */
+  border-radius: 10px; /* Creates rounded edges */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6); /* Creates a shadow around the button */
 }
-.luxeimage {
-  margin-left: 1100px;
-  margin-top: -250px;
+
+.luxe {/*This styles the header and the text written*/
+  font-family:"Verdana"; /* Changes the font of the text */
+  text-align: center;  /* Moves everything to the center of the page */
+  color: #8F6A2F; /* Changes the color of the text */
+  margin-top: 0.05%; /* Moves everything further down */
+  margin-right: 15%; /*Moves everything further to the right */
 }
-.luxeimage a {
-  color: black;
+
+.luxeimage {/*This styles the image beside all the text */
+  margin-left: 1100px; /* Moves the image further to the left*/
+  margin-top: -250px; /* Moves the image further up */
 }
-.luxeimage button {
-  background-color: white;
-  color: black;
-  font-family: "Sans Serif";
-  margin-top: 10px;
-  margin-left: 100px;
-  text-decoration: underline;
+
+.luxeimage a {/*This styles the button text under the image */
+  color: black; /* Changes the color of the text */
 }
-.luxeimage button:hover {
-  border-style: none;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+.luxeimage button {/*This styles the actual button*/
+  background-color: white; /* Sets the background color*/
+  color: black; /* Changes the color of the text */
+  font-family: "Sans Serif"; /* Changes the font of the text */
+  text-decoration: underline; /*Adds a line under the text*/
+  margin-top: 10px; /* Moves everything further down */
+  margin-left: 100px; /*Moves everything further to the left */
 }
-.addonsimportantnotes {
-  text-align: center;
-  font-family:"Verdana";
-  font-size: 5.2rem;
-  color: #8F6A2F;
-  margin-top:4.5%;
+.luxeimage button:hover {/* This styles the button when you hover over it */
+  border-style: none; /* Sets the border style */
+  border-radius: 10px; /* Creates rounded edges */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6); /* Creates a shadow around the button */
 }
-.footer {
-  font-family:"Verdana";
-  margin-top: 100px;
-  margin-left: 600px;
-  color: black;
+.addonsimportantnotes { /*This styles the header containing "Add-ons and Extras" along with written texts */
+  text-align: center; /* Moves everything to the center of the page */
+  font-family:"Verdana"; /* Changes the font of the text */
+  font-size: 5.2rem; /* Changes the size of the font */
+  color: #8F6A2F; /* Changes the color of the text */
+  margin-top:4.5%; /* Moves everything further down */
+}
+.footer { /*This styles the location, hours, and contact information */
+  font-family:"Verdana"; /* Changes the font of the text */
+  margin-top: 100px; /* Moves everything further down */
+  margin-left: 600px; /*Moves everything further to the left */
+  color: black; /* Changes the color of the text */
 }
