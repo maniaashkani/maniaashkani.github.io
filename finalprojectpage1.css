@@ -1,163 +1,159 @@
 
-.navigation {
-  position: fixed;
-  top: 20px;
-  right: 200px;
+.navigation { /* This is the navigation bar */
+  position: fixed; /* This keeps the nav bar in place even when scrolling */
+  top: 20px; 
+  right: 200px; /* Both top, right, and length elements change where the links stay */
   length: 100px;
-  font-family:"Verdana";
-  color: #8F6A2F;
+  font-family:"Verdana"; /* Changes the font of the text */
+  color: #8F6A2F; /* Changes the color of the text */
 }
-.navigation a {
-  font-family:"Verdana";
-  color: #8F6A2F;
-  text-decoration: underline;
+.navigation a { /* This styles the links */
+  text-decoration: underline; /* Creates a line under the hyper links */
 }
-.aboutush1 h1 {
-  text-align: center;
-  font-family:"Brush Script MT";
-  font-size: 5.2rem;
-  color: #8F6A2F;
-  margin-top:4.5%;
+.aboutush1 h1 { /* This styles "About Us" header */
+  text-align: center; /* Moves header to the center of the page */
+  font-family:"Brush Script MT"; /* Changes the font of the text */
+  font-size: 5.2rem; /* Changes the font-size */
+  color: #8F6A2F; /* Changes the color of the text */
+  margin-top:4.5%; /* Moves the header further down */
 }
-.aboutush3 {
-  font-family:"Verdana";
-  text-align: center;
-  color: #8F6A2F;
-  margin-top: 0.05%;
-  margin-left: 15%;
-  margin-right:15%;
+.aboutush3 { /* This styles the written text under the "About Us" header */
+  font-family:"Verdana"; /* Changes the font of the text */
+  text-align: center; /* Moves header to the center of the page */
+  color: #8F6A2F;/* Changes the color of the text */
+  margin-top: 0.05%;/* Moves the header further down */
+  margin-left: 15%; /*Moves the header further to the left */
+  margin-right:15%; /*Moves the header further to the right */
 }
 .container {
-  position: relative;
+  position: relative; /* Makes the images in the middle relative to the document flow*/
 }
-.aboutusimages {
-  position: absolute;
-  z-index: 1;
-  border-style: solid;
-  border-radius: 50px;
-  border-width: 10px;
-  border-color: black;
-  margin-top: 120px;
-  margin-bottom: 200px;
-  margin-left: 220px;
+.aboutusimages { /* Styles the image collage in the middle of the page */
+  position: absolute; /* Positions the image to overlap the other images */
+  z-index: 1; /* The order in which the images go in */
+  border-style: solid; /* Sets the border style around the image */
+  border-radius: 50px; /* Creates rounded edges */
+  border-width: 10px; /* Creates the thickness of the border */
+  border-color: black; /* Colors the border */
+  margin-top: 120px; /* Moves the image further down */
+  margin-bottom: 200px; /* Moves the image further up */
+  margin-left: 220px; /*Moves the image further to the left */
 }
-.aboutusimagespart2 {
-  position: absolute;
-  z-index: 2;
-  border-style: solid;
-  border-radius: 50px;
-  border-width: 10px;
-  border-color: black;
-  margin-top: 130px;
-  margin-bottom: 200px;
-  margin-left: 140px;
+.aboutusimagespart2 { /* Styles the image collage in the middle of the page */
+  position: absolute;/* Positions the image to overlap the other images */
+  z-index: 2; /* The order in which the images go in */
+  border-style: solid;/* Sets the border style around the image */
+  border-radius: 50px; /* Creates rounded edges */
+  border-width: 10px; /* Creates the thickness of the border */
+  border-color: black; /* Colors the border */
+  margin-top: 130px; /* Moves the image further down */
+  margin-bottom: 200px; /* Moves the image further up */
+  margin-left: 140px; /*Moves the image further to the left */
 }
-.aboutusimagespart3 {
-  position: absolute;
-  z-index: 3;
-  border-style: solid;
-  border-radius: 50px;
-  border-width: 10px;
-  border-color: black;
-  margin-top: 40px;
-  margin-bottom: 200px;
-  margin-left: 190px;
+.aboutusimagespart3 { /* Styles the image collage in the middle of the page */
+  position: absolute;/* Positions the image to overlap the other images */
+  z-index: 3;/* The order in which the images go in */
+  border-style: solid; /* Sets the border style around the image */
+  border-radius: 50px; /* Creates rounded edges */
+  border-width: 10px; /* Creates the thickness of the border */
+  border-color: black; /* Colors the border */
+  margin-top: 40px; /* Moves the image further down */
+  margin-bottom: 200px; /* Moves the image further up */
+  margin-left: 190px; /*Moves the image further to the left */
 }
-.studios h1 {
-  margin-top: 500px;
-  font-family:"Brush Script MT";
-  font-size: 5.2rem;
-}
-
-.studioh3flex {
-  margin-right: 700px;
+.studios h1 { /* Styles the header for the studio options */
+  margin-top: 500px; /* Moves the header further down */
+  font-family:"Brush Script MT"; /* Changes the font of the text */
+  font-size: 5.2rem; /* Changes the font-size */
 }
 
-.studioflexinfo {
-  margin-right: 700px;
-  color: black;
+.studioh3flex { /* This styles "The Full-Body Flex" header */
+  margin-right: 700px; /*Moves the header further to the right */
 }
 
-.flexbutton {
-  margin-right: 700px;
+.studioflexinfo { /* This styles the information under "The Full-Body Flex" header */
+  margin-right: 700px; /*Moves the header further to the right */
+  color: black; /* Changes the color of the text */
 }
 
-.flexbutton a {
-  color: black;
+.flexbutton { /* This styles the first button */
+  margin-right: 700px; /*Moves the header further to the right */
 }
 
-.flexbutton button:hover {
-  border-style: none;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+.flexbutton a { /* This styles the text in the button */
+  color: black; /* Changes the color of the text */
 }
 
-.imgflex {
-  margin-left: 500px;
-  margin-top: -200px;
+.flexbutton button:hover { /* This styles the button when you hover over it */
+  border-style: none; /* Sets the border style */
+  border-radius: 10px; /* Creates rounded edges */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6); /* Creates a shadow around the button */
 }
 
-.studioh3glow {
-  margin-right: 700px;
+.imgflex { /*This styles the image beside all the text */
+  margin-left: 500px; /*Moves the image further to the right*/
+  margin-top: -200px; /*Moves the image further up*/
 }
 
-.studioglowinfo {
-  margin-right: 700px;
-  color: black;
+.studioh3glow { /* This styles "The Close-Up Glow" header */
+  margin-right: 700px; /*Moves the header further to the right */
 }
 
-.glowbutton {
-  margin-right: 700px;
-  color: 
+.studioglowinfo { /* This styles the information under "The Full-Body Flex" header */
+  margin-right: 700px; /*Moves the header further to the right */
+  color: black; /* Changes the color of the text */
 }
 
-.glowbutton a {
-  color: black;
+.glowbutton { /* This styles the second button */
+  margin-right: 700px; /*Moves the header further to the right */ 
 }
 
-.glowbutton button:hover {
-  border-style: none;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+.glowbutton a { /* This styles the text in the button */
+  color: black; /* Changes the color of the text */
 }
 
-.imgglow {
-  margin-left: 500px;
-  margin-top: -200px;
+.glowbutton button:hover { /* This styles the button when you hover over it */
+  border-style: none; /* Sets the border style */
+  border-radius: 10px; /* Creates rounded edges */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6); /* Creates a shadow around the button */
 }
 
-.studioh3red {
-  margin-right: 700px;
+.imgglow { /*This styles the image beside all the text */
+  margin-left: 500px; /*Moves the image further to the right*/
+  margin-top: -200px; /*Moves the image further up*/
 }
 
-.studioredinfo {
-  margin-right: 700px;
-  color: black;
+.studioh3red { /* This styles "The Close-Up Glow" header */
+  margin-right: 700px; /*Moves the header further to the right */
 }
 
-.redbutton {
-  margin-right: 700px;
+.studioredinfo { /* This styles the information under "The Full-Body Flex" header */
+  margin-right: 700px; /*Moves the header further to the right */
+  color: black; /* Changes the color of the text */
 }
 
-.redbutton a {
-  color: black;
+.redbutton {  /* This styles the second button */
+  margin-right: 700px; /*Moves the header further to the right */
 }
 
-.redbutton button:hover {
-  border-style: none;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+.redbutton a { /* This styles the text in the button */
+  color: black; /* Changes the color of the text */
 }
 
-.imgred {
-  position: relative;
-  margin-left: 500px;
-  margin-top: -150px;
-  box-sizing: border-box;
+.redbutton button:hover { /* This styles the button when you hover over it */
+  border-style: none; /* Sets the border style */
+  border-radius: 10px; /* Creates rounded edges */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6); /* Creates a shadow around the button */
 }
 
-.footer {
-  margin-top: 100px;
-  color: black;
-  font-family:"Verdana";
+.imgred { /*This styles the image beside all the text */
+  position: relative; /* Makes the image relative to the document flow*/
+  margin-left: 500px; /* Makes the image move further to the left*/
+  margin-top: -150px; /* Makes the image move further up */
+}
+
+.footer { /*This styles the location, hours, and contact information*/
+  margin-top: 100px; /*Moves the text further down*/
+  color: black; /* Changes the color of the text */
+  font-family:"Verdana"; /* Changes the font of the text */
 }
