@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+  rel="stylesheet"/>
+<title>Page 12</title>
+</head>
+<body>
+  <style>
+    body {
+  background-color: #2F203B;
+  font-family: "Libre Baskerville", serif;
+}
+.page12 {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.mainmenu {
+  border-style: solid;
+  border-color: white;
+  position: relative;
+  top: -50px;
+  left: 40px;
+}
+
+.options {
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 70px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > ul > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 14px;
+  text-decoration: none;
+  background: #333;
+  color: #fff;
+}
+
+.menu a:hover {
+  background: #555;
+}
+
+/* dropdown */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: black;
+  min-width: 160px;
+  display: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  color: #333;
+  background: #fff;
+}
+
+.dropdown-content a:hover {
+  background: #f2f2f2;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.speech {
+  position: relative;
+  background: #fff;
+  padding: 16px 20px;
+  border-radius: 12px;
+  width: fit-content;
+  max-width: 150px;
+  font-family: sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* right tail */
+.speech.right::before {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 10px 0 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+}
+
+.speech2 {
+  position: relative;
+  top: -220px;
+  background: #fff;
+  padding: 16px 20px;
+  border-radius: 12px;
+  width: fit-content;
+  max-width: 80px;
+  font-family: "Libre Baskerville", sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.speech2.right::before {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 10px 0 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+}
+
+.starry {
+  position: relative;
+  top: -100px;
+  left: 250px;
+}
+
+  </style>
+  <div class="page12">
+    <div class="image">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/p66NkZCz/Screenshot-2026-01-11-at-2-22-49-PM.png" alt="Screenshot 2026 01 11 at 2 22 49 PM" border="0" width="80"></a>
+      <div class="mainmenu">
+        <div class="options">
+          <div class="frequency-tracking">
+        <nav class="menu">
+  <ul>
+    <li class="dropdown">
+      <a href="#"><h2>Frequency Tracking</h2></a>
+      <ul class="dropdown-content">
+        <h2>
+        <li>Daily</li>
+        <li>Monthly</li>
+        <li>Yearly</li>
+        </h2>
+      </ul>
+    </li>
+  </ul>
+</nav>
+       <h2>Dark Mode</h2>
+        <h2>Accessing Talk Button</h2>
+    </div>
+      </div>
+    </div>
+      <div class="speech right">
+  Want the frequency of your feedback and dream analyzation to differ? Click on the frequency tracking and change.
+</div>
+       <div class="starry">
+    <img src="https://i.ibb.co/wZk3vgC8/Screenshot-2026-01-08-at-2-22-50-PM.png" alt="Screenshot 2026 01 08 at 2 22 50 PM" border="0" width="250"></a>
+  </div>
+    <div class="speech2 right">
+  Click on accessing talk button
+</div>
+  </div>
+    <script>
+      setTimeout(() => document.querySelector('.starry').style.display = 'none', 5000);
+setTimeout(() => document.querySelector('.speech').style.display = 'none', 20000);
+setTimeout(() => document.querySelector('.speech2').style.display = 'none', 10000);
+    </script>
+</body>
+</html>
