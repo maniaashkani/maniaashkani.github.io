@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=390, height=844, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+<title>Dream Decoder</title>
+
+<style>
+/* ===== BASE ===== */
+body {
+  margin: 0;
+  background-color: #2F203B;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+}
+
+/* ===== INVISIBLE PHONE FRAME ===== */
+.phone {
+  width: 390px;
+  height: 844px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ===== PAGE ===== */
+.page11 {
+  position: relative;
+  padding: 20px;
+}
+
+/* ===== HEADER ===== */
+.header h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* ===== MASCOT ===== */
+.headerimg {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+}
+
+/* ===== SPEECH CONTAINER ===== */
+.container {
+  position: relative;
+  height: 220px;
+  margin-top: 40px;
+}
+
+/* ===== SPEECH BUBBLES (ORIGINAL STYLE) ===== */
+.speech {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  background: white;
+  color: black;
+  border-radius: 25px;
+  padding: 14px;
+  max-width: 200px;
+  font-size: 14px;
+}
+
+.speech2 {
+  position: absolute;
+  top: 120px;
+  left: 170px;
+  background: white;
+  color: black;
+  border-radius: 25px;
+  padding: 12px;
+  max-width: 180px;
+  font-size: 12px;
+}
+
+.speech::before,
+.speech2::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 12px 12px 12px 0;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
+}
+
+/* ===== SECTION TITLE ===== */
+h3 {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* ===== DREAM SECTION ===== */
+.enterdream {
+  border: 2px solid #9A7DFF;
+  padding: 14px;
+  margin-top: 10px;
+}
+
+/* ===== ICON ===== */
+.enterdreamimg {
+  margin-bottom: 8px;
+}
+
+/* ===== TITLE ===== */
+.enterdreamh2 h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* ===== FEATURE BUBBLE ===== */
+.enterdreamspeechbubble {
+  background: white;
+  color: black;
+  border-radius: 30px;
+  padding: 14px;
+  font-size: 13px;
+  max-width: 280px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* ===== AI RESPONSE (INVISIBLE AREA) ===== */
+.result {
+  display: none;
+  background: #2F203B;
+  color: white;
+  text-align: center;
+  max-width: 280px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+/* ===== INPUT ===== */
+.enterbox {
+  background: white;
+  border-radius: 40px;
+  padding: 12px;
+  margin: 12px auto;
+}
+
+#promptBox {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+  resize: none;
+}
+
+/* ===== BUTTONS ===== */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buttons img {
+  width: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.buttons img:hover {
+  transform: scale(1.2);
+}
+
+.buttons img:active {
+  transform: scale(1.35);
+}
+
+/* ===== PULSE ===== */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.pulsing {
+  animation: pulse 1s infinite;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="phone">
+<div class="page11">
+
+  <div class="header">
+    <h1>RECORD YOUR DREAMS AND STARRY WILL DECODE IT FOR YOU.</h1>
+  </div>
+
+  <div class="headerimg">
+    <img src="https://i.ibb.co/wZk3vgC8/Screenshot-2026-01-08-at-2-22-50-PM.png" width="140">
+  </div>
+
+  <div class="container">
+    <div class="speech">HELLO! I’M STARRY, I CAN DECODE YOUR DREAMS FOR YOU.</div>
+    <div class="speech2">IF YOU PRESS THE M AND F BUTTON, I’LL TELL YOU THE MEANING AND FACTS.</div>
+  </div>
+
+  <h3>Enter details of your dreams:</h3>
+
+  <div class="enterdream">
+
+    <div class="enterdreamimg" id="starIcon">
+      <img src="https://i.ibb.co/JRgG1BKJ/Screenshot-2026-01-11-at-1-41-26-PM.png" width="50">
+    </div>
+
+    <div class="enterdreamh2">
+      <h2>TELL ME ABOUT YOUR DREAM</h2>
+    </div>
+
+    <div class="enterdreamspeechbubble" id="featureBubble">
+      E BUTTON (ONLY ANALYZES EMOTIONS)<br>
+      M BUTTON (THE MEANING OF YOUR DREAM)<br>
+      F BUTTON (ADD FACTS ABOUT DREAM)
+    </div>
+
+    <div class="result" id="result"></div>
+
+    <div class="enterbox">
+      <textarea id="promptBox" rows="2" placeholder="ENTER DREAM"></textarea>
+    </div>
+
+    <div class="buttons">
+      <img src="https://i.ibb.co/6cQYXyj3/Screenshot-2026-01-09-at-2-30-40-PM.png" id="emotionBtn">
+      <img src="https://i.ibb.co/RTHhs0sk/Screenshot-2026-01-09-at-2-31-05-PM.png" id="meaningBtn">
+      <img src="https://i.ibb.co/Rkpq2kZH/Screenshot-2026-01-09-at-2-31-25-PM.png" id="factsBtn">
+      <img src="https://i.ibb.co/XZjNfjvW/Screenshot-2026-01-09-at-2-31-43-PM.png">
+    </div>
+
+  </div>
+
+  <div class="footer">TO ACCESS TALK GO TO SETTINGS</div>
+
+</div>
+</div>
+
+<script>
+/* ===== DISAPPEAR TIMERS ===== */
+setTimeout(() => document.querySelector('.speech').style.display = 'none', 5000);
+setTimeout(() => document.querySelector('.speech2').style.display = 'none', 10000);
+setTimeout(() => document.getElementById('featureBubble').style.display = 'none', 15000);
+setTimeout(() => document.querySelector('.headerimg').style.display = 'none', 20000);
+
+/* ===== FAKE AI ===== */
+function analyze(type) {
+  const text = promptBox.value.trim();
+  if (!text) return;
+
+  result.style.display = "block";
+  result.textContent = "Starry is analyzing your dream… ✨";
+  starIcon.classList.add("pulsing");
+
+  setTimeout(() => {
+    starIcon.classList.remove("pulsing");
+
+    if (type === "emotion")
+      result.textContent = "Your dream reflects stress, tiredness, and emotional depth.";
+
+    if (type === "meaning")
+      result.textContent = "This dream represents subconscious processing and self-reflection.";
+
+    if (type === "facts")
+      result.textContent = "This suggests creativity, awareness, and emotional sensitivity.";
+  }, 1800);
+}
+
+emotionBtn.onclick = () => analyze("emotion");
+meaningBtn.onclick = () => analyze("meaning");
+factsBtn.onclick = () => analyze("facts");
+
+promptBox.addEventListener("keydown", e => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    analyze("emotion");
+  }
+});
+function analyzeDreamForGraph(text) {
+  let tired = 0;
+  let happy = 0;
+  let sad = 0;
+  let stressed = 0;
+
+  const t = text.toLowerCase();
+
+  if (t.includes("school") || t.includes("work") || t.includes("running")) tired += 30;
+  if (t.includes("happy") || t.includes("fun") || t.includes("friends")) happy += 35;
+  if (t.includes("cry") || t.includes("lost") || t.includes("dark")) sad += 25;
+  if (t.includes("late") || t.includes("chased") || t.includes("test")) stressed += 30;
+
+  // fallback so graph always fills
+  const total = tired + happy + sad + stressed || 100;
+
+  return {
+    tired: Math.round((tired / total) * 100),
+    happy: Math.round((happy / total) * 100),
+    sad: Math.round((sad / total) * 100),
+    stressed: Math.round((stressed / total) * 100)
+  };
+}
+document.querySelectorAll(".buttons img")[3].onclick = () => {
+  const text = promptBox.value.trim();
+  if (!text) return;
+
+  const emotionData = analyzeDreamForGraph(text);
+
+  localStorage.setItem(
+    "dreamEmotionData",
+    JSON.stringify(emotionData)
+  );
+
+  window.location.href = "page12.html";
+};
+
+</script>
+
+</body>
+</html>
+
