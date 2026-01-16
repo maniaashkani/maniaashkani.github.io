@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+<title>Page 12</title>
+</head>
+<body>
+  <style>
+    body {
+  background-color: #2F203B;
+  font-family: "Libre Baskerville", serif;
+}
+.page12 {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.mentalstatefeedback {
+  color: white;
+  position: relative;
+  left: 40px;
+}
+
+.chart {
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+  height: 350px;
+  padding: 40px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stack {
+  width: 70px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.segment {
+  width: 100%;
+}
+
+
+.tired {
+  background: #6ee7e7;
+}
+
+.happy {
+  background: #45c2dc;
+}
+
+.sad {
+  background: #2f8fbf;
+}
+
+.stressed {
+  background: #5b6f99;
+}
+
+.label {
+  margin-top: 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.starry {
+  position: relative;
+  top: 50px;
+}
+.speech {
+  position: absolute;
+  top: 530px;
+  right: 500px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  width: fit-content;
+  max-width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+
+.speech.left::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 70%;
+  transform: translateY(-50%);
+  border-width: 10px 10px 10px 0;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}
+
+  </style>
+  <div class="page12">
+    <div class="mentalstatefeedback">
+      <h1>Mental State Feedback</h1>
+</div>
+  <div class="chart">
+  <div class="bar">
+    <span class="label">MONTH 1</span>
+    <div class="stack">
+      <div class="segment tired" style="height: 33%"></div>
+      <div class="segment happy" style="height: 34%"></div>
+      <div class="segment sad" style="height: 17%"></div>
+      <div class="segment stressed" style="height: 16%"></div>
+    </div>
+  </div>
+
+  <div class="bar">
+    <span class="label">MONTH 2</span>
+    <div class="stack">
+      <div class="segment tired" style="height: 31%"></div>
+      <div class="segment happy" style="height: 26%"></div>
+      <div class="segment sad" style="height: 22%"></div>
+      <div class="segment stressed" style="height: 21%"></div>
+    </div>
+  </div>
+
+  <div class="bar">
+    <span class="label">MONTH 3</span>
+    <div class="stack">
+      <div class="segment tired" style="height: 34%"></div>
+      <div class="segment happy" style="height: 22%"></div>
+      <div class="segment sad" style="height: 22%"></div>
+      <div class="segment stressed" style="height: 22%"></div>
+    </div>
+  </div>
+
+  <div class="bar">
+    <span class="label">MONTH 4</span>
+    <div class="stack">
+      <div class="segment tired" style="height: 36%"></div>
+      <div class="segment happy" style="height: 42%"></div>
+      <div class="segment sad" style="height: 11%"></div>
+      <div class="segment stressed" style="height: 11%"></div>
+    </div>
+  </div>
+</div>
+    <div class="segment tired" id="tiredSeg"></div>
+<div class="segment happy" id="happySeg"></div>
+<div class="segment sad" id="sadSeg"></div>
+<div class="segment stressed" id="stressedSeg"></div>
+
+<div class="starry">
+    <img src="https://i.ibb.co/wZk3vgC8/Screenshot-2026-01-08-at-2-22-50-PM.png" alt="Screenshot 2026 01 08 at 2 22 50 PM" border="0" width="200"></a>
+  </div>
+  <div class="speech left">
+ This is your mental state feedback graph! this shows your emotions that have been recorded over the past 4 months from your dreams!
+</div>
+</div>
+  <script>
+const data = JSON.parse(localStorage.getItem("dreamEmotionData"));
+
+if (data) {
+  document.getElementById("tiredSeg").style.height = data.tired + "%";
+  document.getElementById("happySeg").style.height = data.happy + "%";
+  document.getElementById("sadSeg").style.height = data.sad + "%";
+  document.getElementById("stressedSeg").style.height = data.stressed + "%";
+}
+</script>
+</body>
+</html>
